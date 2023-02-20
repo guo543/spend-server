@@ -29,7 +29,6 @@ const callback = (req: Request, res: Response) => {
 app.get('/hello', callback);
 
 mongoose.set('strictQuery', true);
-
 mongoose.connect(CONNECTION_URL)
     .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))
     .catch((error) => console.log(error.message));

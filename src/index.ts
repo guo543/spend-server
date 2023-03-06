@@ -26,7 +26,9 @@ const callback = (req: Request, res: Response) => {
     res.send("hello");
 }
 
-app.get('/hello', callback);
+app.get('/hello', (req, res) => {
+    res.send("hello");
+});
 
 mongoose.set('strictQuery', true);
 mongoose.connect(CONNECTION_URL)

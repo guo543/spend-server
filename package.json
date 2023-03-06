@@ -10,23 +10,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guo543/cost-writer-server.git"
+    "url": "git+https://github.com/guo543/spend-server.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guo543/cost-writer-server/issues"
+    "url": "https://github.com/guo543/spend-server/issues"
   },
-  "homepage": "https://github.com/guo543/cost-writer-server#readme",
+  "homepage": "https://github.com/guo543/spend-server#readme",
   "dependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.2",
     "nodemon": "^2.0.20"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/node": "^18.14.0",

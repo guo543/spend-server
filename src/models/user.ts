@@ -1,9 +1,9 @@
 import mongoose, { Schema } from 'mongoose';
 
 interface IUser {
-    email: String;
-    password: String;
-    id: String;
+    email: string;
+    password: string;
+    id: string;
 }
 
 const userSchema = new Schema<IUser>({
